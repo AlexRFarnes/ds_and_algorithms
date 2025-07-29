@@ -1,6 +1,6 @@
-# linked_lists.py
+# linked_list.py
 
-# Singly linked lists
+
 class SinglyLinkedList:
     def __init__(self) -> None:
         self.head: Node | None = None
