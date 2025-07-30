@@ -1,7 +1,7 @@
 # linked_list.py
 
 
-class SinglyLinkedList:
+class SingleLinkedList:
     def __init__(self) -> None:
         self.head: Node | None = None
         self.tail: Node | None = None
@@ -105,7 +105,7 @@ class Node:
 
 
 # Creating
-words = SinglyLinkedList()
+words = SingleLinkedList()
 words.append("egg")
 words.append("ham")
 words.append("spam")
